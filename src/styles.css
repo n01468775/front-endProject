@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: url("https://media.istockphoto.com/photos/an-indoor-basketball-court-with-an-orange-ball-on-an-unmarked-wooden-picture-id1354163336?b=1&k=20&m=1354163336&s=170667a&w=0&h=P6tVByBEFqzUZEyqqgKSJc3yG2ZX8yXUxAKOxYBunkE=") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.transparent {
+  background-color: transparent !important;
+}
+.search {
+  padding: 7px;
+  margin-top: 8px;
+  font-size: 17px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.title {
+  color: gold;
+  font-weight: bold;
+  font-size: 18;
+  text-align: center;
+}
+
+p{
+  color:black;
+  font-weight: bold;
+  font-size: 18;
+  background-color: darkorange;
+}
+
+#team{
+  
+  color:gold;
+  font-weight: bold;
+  font-size: 18;
+}
+table, th, td {
+  background-color: black;
+  border: 2px solid;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#teams{
+  background-color: black;
+  color:gold;
+  text-align: left;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+input{
+  background-color: black;
+  color:gold;
+  width: 50%;
+}
+::placeholder{
+font-style: italic;
+font-weight: 25%;
+}
